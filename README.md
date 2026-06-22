@@ -81,8 +81,8 @@ Ensure you have the following installed:
 
 ### Step 1: Clone & Navigate
 ```bash
-git clone <repository-url>
-cd Paglar_project
+git clone https://github.com/amisadman/aroggo.git
+cd aroggo
 ```
 
 ### Step 2: Install Dependencies
