@@ -101,3 +101,14 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+// Temporary helper route for shared hosting to run database migrations and seeders
+Route::get('/run-migrations', function () {
+    try {
+        \Illuminate\Support\Facades\Artisan::call('migrate:fresh', ['--seed' => true]);
+        return '✨ Database migrated and seeded successfully!';
+    } catch (\Exception $e) {
+        return '❌ Error during migration: ' . $e->getMessage();
+    }
+});
+

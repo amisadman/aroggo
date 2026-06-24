@@ -1,0 +1,1 @@
+import{o as e,g as t,d as s}from"./app.048c3884.js";const n={xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"1.5",stroke:"currentColor",class:"w-6 h-6"},r=["d"],p={__name:"Icon",props:["path"],setup(o){return(a,c)=>(e(),t("svg",n,[s("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:o.path},null,8,r)]))}};export{p as _};
