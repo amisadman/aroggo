@@ -10,6 +10,12 @@
   <strong>Pharmacy Management System</strong>
 </p>
 
+<p align="center">
+  <a href="https://aroggo.freehosting.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-https%3A%2F%2Faroggo.freehosting.dev-3dbdec?style=for-the-badge&logo=laravel&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
+
 A premium, secure, and modern web-based Pharmacy Management System designed to handle medicine inventories, manage supplier logs, process sales transactions with automatic customer discounts, and track prescription uploads.
 
 Designed with a rich, professional interface matching Aroggo Pharmacy's visual brand identity.
