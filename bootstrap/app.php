@@ -17,7 +17,9 @@ $app = new Illuminate\Foundation\Application(
 
 // Dynamically set public path for shared hosting (split directory)
 if (basename(dirname(__DIR__)) === 'aroggo_core') {
-    $app->usePublicPath(dirname(dirname(__DIR__)));
+    $app->bind('path.public', function () {
+        return dirname(dirname(__DIR__));
+    });
 }
 
 /*
